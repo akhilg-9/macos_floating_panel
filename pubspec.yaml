@@ -1,7 +1,7 @@
 name: macos_floating_panel
 description: "A Flutter plugin for creating floating panel windows on macOS that stay on top of other windows."
 version: 0.0.1
-homepage: https://github.com/yourusername/macos_floating_panel
+homepage: https://github.com/akhilg-9/macos_floating_panel
 
 environment:
   sdk: ^3.8.1
