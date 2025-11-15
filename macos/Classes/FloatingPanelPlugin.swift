@@ -5,7 +5,7 @@ public class FloatingPanelPlugin: NSObject, FlutterPlugin {
   private var floatingPanel: FloatingPanel?
 
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "floating_panel", binaryMessenger: registrar.messenger)
+    let channel = FlutterMethodChannel(name: "macos_floating_panel", binaryMessenger: registrar.messenger)
     let instance = FloatingPanelPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }

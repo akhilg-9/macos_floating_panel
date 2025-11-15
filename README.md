@@ -1,4 +1,4 @@
-# floating_panel
+# macos_floating_panel
 
 A Flutter plugin for creating floating panel windows on macOS.
 
@@ -29,7 +29,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  floating_panel: ^0.0.1
+  macos_floating_panel: ^0.0.1
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ dependencies:
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:floating_panel/floating_panel.dart';
+import 'package:macos_floating_panel/floating_panel.dart';
 
 // Show the floating panel
 await FloatingPanel.instance.show(
@@ -63,7 +63,7 @@ await FloatingPanel.instance.setPosition(100, 100);
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:floating_panel/floating_panel.dart';
+import 'package:macos_floating_panel/floating_panel.dart';
 
 void main() {
   runApp(const MyApp());

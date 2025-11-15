@@ -3,7 +3,7 @@
 # Run `pod lib lint floating_panel.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'floating_panel'
+  s.name             = 'macos_floating_panel'
   s.version          = '0.0.1'
   s.summary          = 'A new Flutter plugin project.'
   s.description      = <<-DESC

@@ -7,7 +7,7 @@ import 'floating_panel_platform_interface.dart';
 class MethodChannelFloatingPanel extends FloatingPanelPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('floating_panel');
+  final methodChannel = const MethodChannel('macos_floating_panel');
 
   @override
   Future<String?> getPlatformVersion() async {

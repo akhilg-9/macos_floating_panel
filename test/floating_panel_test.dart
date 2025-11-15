@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:floating_panel/floating_panel.dart';
-import 'package:floating_panel/floating_panel_platform_interface.dart';
-import 'package:floating_panel/floating_panel_method_channel.dart';
+import 'package:macos_floating_panel/floating_panel.dart';
+import 'package:macos_floating_panel/floating_panel_platform_interface.dart';
+import 'package:macos_floating_panel/floating_panel_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 class MockFloatingPanelPlatform

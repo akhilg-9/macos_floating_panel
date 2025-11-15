@@ -1,6 +1,6 @@
-# floating_panel_example
+# macos_floating_panel_example
 
-Demonstrates how to use the floating_panel plugin.
+Demonstrates how to use the macos_floating_panel plugin.
 
 ## Getting Started
 

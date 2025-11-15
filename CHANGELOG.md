@@ -1,6 +1,6 @@
 ## 0.0.1
 
-* Initial release of floating_panel plugin
+* Initial release of macos_floating_panel plugin
 * Support for macOS floating panel windows
 * Features:
   * Show and hide floating panels

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:floating_panel/floating_panel.dart';
+import 'package:macos_floating_panel/floating_panel.dart';
 
 void main() {
   runApp(const MyApp());

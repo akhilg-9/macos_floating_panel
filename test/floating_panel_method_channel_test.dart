@@ -1,12 +1,12 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:floating_panel/floating_panel_method_channel.dart';
+import 'package:macos_floating_panel/floating_panel_method_channel.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
   MethodChannelFloatingPanel platform = MethodChannelFloatingPanel();
-  const MethodChannel channel = MethodChannel('floating_panel');
+  const MethodChannel channel = MethodChannel('macos_floating_panel');
 
   setUp(() {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger.setMockMethodCallHandler(

@@ -5,7 +5,7 @@
 import FlutterMacOS
 import Foundation
 
-import floating_panel
+import macos_floating_panel
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
   FloatingPanelPlugin.register(with: registry.registrar(forPlugin: "FloatingPanelPlugin"))
